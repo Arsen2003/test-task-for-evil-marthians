@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/task-for-evil-marthians/static/css/main.3ca9ccca.css",
+    "main.js": "/task-for-evil-marthians/static/js/main.50ed18ea.js",
+    "static/media/mars-about-bg.jpg": "/task-for-evil-marthians/static/media/mars-about-bg.332a98e175dd33521707.jpg",
+    "static/media/ChakraPetch-Medium.ttf": "/task-for-evil-marthians/static/media/ChakraPetch-Medium.8bc62e852b36ebc0b674.ttf",
+    "index.html": "/task-for-evil-marthians/index.html",
+    "main.3ca9ccca.css.map": "/task-for-evil-marthians/static/css/main.3ca9ccca.css.map",
+    "main.50ed18ea.js.map": "/task-for-evil-marthians/static/js/main.50ed18ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ca9ccca.css",
+    "static/js/main.50ed18ea.js"
+  ]
+}
