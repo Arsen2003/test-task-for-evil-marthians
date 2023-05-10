@@ -1,38 +1,112 @@
+@font-face {
+font-family: "Chakra Petch";
+src: url('./assets/fonts/ChakraPetch-Medium.ttf') format('truetype');
+}
+
 .App {
-  text-align: center;
+text-align: center;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('./assets/images/mars-about-bg.jpg');
+background-position: center;
+background-size: auto;
+background-repeat: no-repeat;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.authorization{
+
+display: flex;
+flex-direction: column;
+
+max-width: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.authorization-form{
+width: 100%;
+padding:  50px 0;
+gap: 15px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 20px;
+padding: 50px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.authorization-title{
+font-family: "Chakra Petch";
+color: white;
+font-size: 60px;
+caret-color: transparent;
+text-shadow: 0px 0px   15px  white;
 }
 
-.App-link {
-  color: #61dafb;
+.authorization-title:hover{
+  text-shadow: 0px 0px   25px  white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.authorization-form-label{
+width: 70%;
+caret-color: transparent;
+}
+
+.authorization-form-label-inp{
+width: 100%;
+background-color: transparent;
+color: white;
+padding:  10px 0;
+border-radius: 20px;
+border: 1px solid white;
+text-align: center;
+font-family: "Chakra Petch";
+outline: none;
+caret-color: black;
+}
+.authorization-form-label-inp:focus{
+background-color: white;
+color: black;
+}
+
+.authorization-form-button{
+width: 70%;
+padding:  10px 0;
+border-radius: 20px;
+background-color: transparent;
+border: 1px solid white;
+color: white;
+text-align: center;
+font-family: "Chakra Petch";
+cursor: pointer;
+}
+.register__link{
+color: white;
+font-family: "Chakra Petch";
+text-decoration: none;
+caret-color: transparent;
+}
+
+.authorization-form-button:hover{
+box-shadow: 0px 0px   15px  white;
+color: black;
+background-color: white;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+.authorization{
+  width: 100%;
+}
+.authorization-form{
+  width: 100%;
+  border-radius: 0px;
+}
+.authorization-title{
+font-size: 40px;
+
+}
 }
