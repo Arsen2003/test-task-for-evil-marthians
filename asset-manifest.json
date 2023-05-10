@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/test-task-for-evil-marthians/static/css/main.6ddb6bb7.css",
-    "main.js": "/test-task-for-evil-marthians/static/js/main.50ed18ea.js",
-    "static/media/mars-about-bg.jpg": "/test-task-for-evil-marthians/static/media/mars-about-bg.332a98e175dd33521707.jpg",
-    "static/media/ChakraPetch-Medium.ttf": "/test-task-for-evil-marthians/static/media/ChakraPetch-Medium.8bc62e852b36ebc0b674.ttf",
-    "index.html": "/test-task-for-evil-marthians/index.html",
-    "main.6ddb6bb7.css.map": "/test-task-for-evil-marthians/static/css/main.6ddb6bb7.css.map",
-    "main.50ed18ea.js.map": "/test-task-for-evil-marthians/static/js/main.50ed18ea.js.map"
+    "main.css": "/test-task-for-evil-martians/static/css/main.aa69c25d.css",
+    "main.js": "/test-task-for-evil-martians/static/js/main.50ed18ea.js",
+    "static/media/mars-about-bg.jpg": "/test-task-for-evil-martians/static/media/mars-about-bg.332a98e175dd33521707.jpg",
+    "static/media/ChakraPetch-Medium.ttf": "/test-task-for-evil-martians/static/media/ChakraPetch-Medium.8bc62e852b36ebc0b674.ttf",
+    "index.html": "/test-task-for-evil-martians/index.html",
+    "main.aa69c25d.css.map": "/test-task-for-evil-martians/static/css/main.aa69c25d.css.map",
+    "main.50ed18ea.js.map": "/test-task-for-evil-martians/static/js/main.50ed18ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ddb6bb7.css",
+    "static/css/main.aa69c25d.css",
     "static/js/main.50ed18ea.js"
   ]
 }
